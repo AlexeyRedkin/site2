@@ -10,3 +10,7 @@ header {
     background-image: url("../pic/iron.jpg");
     background-size: cover;
 }
+
+h1 {
+    color: white;
+}
