@@ -41,6 +41,7 @@ footer .links > a {
 .news {
     background-color: white;
     padding: 50px 0 32px;
+
 }
 
 article {
@@ -55,9 +56,13 @@ article a {
     text-decoration: none;
 }
 
-article a:hover {
+article h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
+}
+
+article a:hover {
+    color: blue;
 }
 
 .article-meta {
@@ -70,3 +75,10 @@ article img {
     height: 300px;
     object-fit: cover;
 }
+
+article:nth-child(even) {
+  background: purple;
+}
+article:nth-child(-n+2) h2::before {
+      content: "New ";
+  }
