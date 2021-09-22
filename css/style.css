@@ -80,5 +80,6 @@ article:nth-child(even) {
   background: purple;
 }
 article:nth-child(-n+2) h2::before {
-      content: "New ";
+    color: red;
+    content: "New ";
   }
